@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lena Beauty | Skincare y cuidado personal</title>
+    <meta name="description" content="Productos de skincare, belleza y cuidado personal en Lena Beauty.">
+    <meta name="keywords" content="skincare, belleza, cuidado facial, cosmética">
+    <meta name="author" content="Malena Alvarez">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#faf8f6">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <script
+        src="https://kit.fontawesome.com/6dfd59ac40.js"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="#inicio" class="logo">
+            LENA BEAUTY
+        </a>
+
+        <nav aria-label="Navegación principal">
+            <ul class="nav-list">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#productos">Productos</a>
+                </li>
+
+                <li>
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="#resenas">Reseñas</a>
+                </li>
+                <li>
+                    <a href="#multimedia">Video</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li><a href="#carrito">Carrito (<span id="cart-count" aria-live="polite">0</span>)</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main id="contenido-principal">
+
+        <!-- INICIO -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">
+                    SKINCARE & BEAUTY
+                </p>
+
+                <h1>
+                    LENA BEAUTY
+                </h1>
+
+                <p>
+                    Productos de belleza y cuidado personal
+                    para acompañar tu rutina de skincare.
+                </p>
+
+                <a href="#productos" class="btn">
+                    Ver productos
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- NOSOTROS -->
+
+        <section class="section nosotros" id="nosotros">
+
+            <div class="nosotros-imagen">
+
+                <img
+                    src="./img/yo.jpg"
+                    alt="LENA BEAUTY"
+                >
+
+            </div>
+
+
+            <div class="nosotros-info">
+
+                <p class="section-subtitle">
+                    SOBRE LENA BEAUTY
+                </p>
+
+                <h2>
+                    Belleza que forma parte de tu rutina.
+                </h2>
+
+                <p>
+                    LENA BEAUTY nace como una propuesta dedicada
+                    al cuidado personal y al mundo del skincare.
+                </p>
+
+                <p>
+                    Seleccionamos productos y accesorios pensados
+                    para acompañar esos pequeños momentos de
+                    cuidado que forman parte de todos los días.
+                </p>
+
+                <a href="#contacto" class="btn">
+                    Contactanos
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PRODUCTOS -->
+
+        <section class="section" id="productos">
+
+            <div class="section-title">
+
+                <p>
+                    NUESTRA SELECCIÓN
+                </p>
+
+                <h2>
+                    Productos
+                </h2>
+
+            </div>
+
+
+            <p id="products-status" class="text-center mb-4" role="status" aria-live="polite">Catálogo de Lena Beauty</p>
+            <div class="productos" id="products-grid">
+
+
+                <!-- PRODUCTO 1 -->
+
+                <article class="producto" data-product-id="1">
+
+                    <img
+                        src="./img/serum.jpg"
+                        alt="Sérum facial"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            SKINCARE
+                        </span>
+
+                        <h3>
+                            Sérum facial
+                        </h3>
+
+                        <p>
+                            Una opción para complementar
+                            tu rutina de cuidado facial.
+                        </p>
+
+                        <span class="precio">
+                            $15.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="1">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 2 -->
+
+                <article class="producto" data-product-id="2">
+
+                    <img
+                        src="./img/crema.jpg"
+                        alt="Crema facial"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            SKINCARE
+                        </span>
+
+                        <h3>
+                            Crema facial
+                        </h3>
+
+                        <p>
+                            Hidratación para acompañar
+                            tu rutina diaria.
+                        </p>
+
+                        <span class="precio">
+                            $14.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="2">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 3 -->
+
+                <article class="producto" data-product-id="3">
+
+                    <img
+                        src="./img/cremas.jpg"
+                        alt="Cremas de skincare"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            SKINCARE
+                        </span>
+
+                        <h3>
+                            Cremas de skincare
+                        </h3>
+
+                        <p>
+                            Alternativas para completar
+                            tu rutina de belleza.
+                        </p>
+
+                        <span class="precio">
+                            $18.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="3">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 4 -->
+
+                <article class="producto" data-product-id="4">
+
+                    <img
+                        src="./img/cremas4.jpg"
+                        alt="Cremas faciales"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            SKINCARE
+                        </span>
+
+                        <h3>
+                            Crema hidratante
+                        </h3>
+
+                        <p>
+                            Una alternativa para el cuidado
+                            diario de la piel.
+                        </p>
+
+                        <span class="precio">
+                            $16.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="4">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 5 -->
+
+                <article class="producto" data-product-id="5">
+
+                    <img
+                        src="./img/cremasvarias.jpg"
+                        alt="Variedad de cremas"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            SKINCARE
+                        </span>
+
+                        <h3>
+                            Cremas varias
+                        </h3>
+
+                        <p>
+                            Diferentes opciones para
+                            tu rutina de skincare.
+                        </p>
+
+                        <span class="precio">
+                            $17.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="5">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 6 -->
+
+                <article class="producto" data-product-id="6">
+
+                    <img
+                        src="./img/cremacorazon.jpg"
+                        alt="Crema facial"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            SKINCARE
+                        </span>
+
+                        <h3>
+                            Crema facial
+                        </h3>
+
+                        <p>
+                            Una opción para sumar
+                            hidratación a tu rutina.
+                        </p>
+
+                        <span class="precio">
+                            $14.500
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="6">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 7 -->
+
+                <article class="producto" data-product-id="7">
+
+                    <img
+                        src="./img/bloqueadorsolar1.jpg"
+                        alt="Protector solar"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            PROTECCIÓN
+                        </span>
+
+                        <h3>
+                            Protector solar
+                        </h3>
+
+                        <p>
+                            Protección para incorporar
+                            a tu rutina diaria.
+                        </p>
+
+                        <span class="precio">
+                            $20.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="7">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 8 -->
+
+                <article class="producto" data-product-id="8">
+
+                    <img
+                        src="./img/bloqueadorsolar.jpg"
+                        alt="Protector solar facial"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            PROTECCIÓN
+                        </span>
+
+                        <h3>
+                            Protector solar facial
+                        </h3>
+
+                        <p>
+                            Una opción para proteger
+                            tu piel todos los días.
+                        </p>
+
+                        <span class="precio">
+                            $22.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="8">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 9 -->
+
+                <article class="producto" data-product-id="9">
+
+                    <img
+                        src="./img/larocheposaybloqueador.jpg"
+                        alt="Protector solar La Roche Posay"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            PROTECCIÓN
+                        </span>
+
+                        <h3>
+                            Protector solar
+                        </h3>
+
+                        <p>
+                            Una alternativa para completar
+                            tu rutina de cuidado.
+                        </p>
+
+                        <span class="precio">
+                            $25.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="9">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 10 -->
+
+                <article class="producto" data-product-id="10">
+
+                    <img
+                        src="./img/mascarilla.jpg"
+                        alt="Mascarilla facial"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            MASCARILLAS
+                        </span>
+
+                        <h3>
+                            Mascarilla facial
+                        </h3>
+
+                        <p>
+                            Un momento de cuidado para
+                            complementar tu rutina.
+                        </p>
+
+                        <span class="precio">
+                            $10.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="10">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 11 -->
+
+                <article class="producto" data-product-id="11">
+
+                    <img
+                        src="./img/mascarillaverde.jpg"
+                        alt="Mascarilla verde"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            MASCARILLAS
+                        </span>
+
+                        <h3>
+                            Mascarilla verde
+                        </h3>
+
+                        <p>
+                            Una alternativa para complementar
+                            tu cuidado facial.
+                        </p>
+
+                        <span class="precio">
+                            $11.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="11">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 12 -->
+
+                <article class="producto" data-product-id="12">
+
+                    <img
+                        src="./img/mascarillaamarilla.jpg"
+                        alt="Mascarilla amarilla"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            MASCARILLAS
+                        </span>
+
+                        <h3>
+                            Mascarilla amarilla
+                        </h3>
+
+                        <p>
+                            Una opción para disfrutar
+                            tu rutina de skincare.
+                        </p>
+
+                        <span class="precio">
+                            $11.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="12">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 13 -->
+
+                <article class="producto producto-doble" data-product-id="13">
+
+                    <div class="producto-imagenes">
+
+                        <img
+                            src="./img/mascarillagarnierazul1.jpg"
+                            alt="Mascarilla Garnier azul - foto 1"
+                        >
+
+                        <img
+                            src="./img/mascarillagarnierazul2.jpg"
+                            alt="Mascarilla Garnier azul - foto 2"
+                        >
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            GARNIER
+                        </span>
+
+                        <h3>
+                            Mascarilla Garnier azul
+                        </h3>
+
+                        <p>
+                            Una opción para complementar
+                            tu ritual de cuidado facial.
+                        </p>
+
+                        <span class="precio">
+                            $12.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="13">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 14 -->
+
+                <article class="producto" data-product-id="14">
+
+                    <img
+                        src="./img/garniermascarillas.jpg"
+                        alt="Mascarillas Garnier"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            GARNIER
+                        </span>
+
+                        <h3>
+                            Mascarillas Garnier
+                        </h3>
+
+                        <p>
+                            Diferentes opciones para
+                            complementar tu rutina.
+                        </p>
+
+                        <span class="precio">
+                            $12.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="14">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 15 -->
+
+                <article class="producto" data-product-id="15">
+
+                    <img
+                        src="./img/vinchas.jpg"
+                        alt="Vincha para skincare"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            ACCESORIOS
+                        </span>
+
+                        <h3>
+                            Vincha para skincare
+                        </h3>
+
+                        <p>
+                            Un accesorio práctico para
+                            tu rutina de belleza.
+                        </p>
+
+                        <span class="precio">
+                            $8.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="15">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 16 -->
+
+                <article class="producto" data-product-id="16">
+
+                    <img
+                        src="./img/vinchabeige.jpg"
+                        alt="Vincha para skincare"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            ACCESORIOS
+                        </span>
+
+                        <h3>
+                            Vincha de skincare
+                        </h3>
+
+                        <p>
+                            Ideal para mantener el cabello
+                            fuera del rostro.
+                        </p>
+
+                        <span class="precio">
+                            $8.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="16">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 17 -->
+
+                <article class="producto" data-product-id="17">
+
+                    <img
+                        src="./img/vinchanegra.jpg"
+                        alt="Vincha negra"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            ACCESORIOS
+                        </span>
+
+                        <h3>
+                            Vincha negra
+                        </h3>
+
+                        <p>
+                            Un accesorio sencillo para
+                            acompañar tu rutina.
+                        </p>
+
+                        <span class="precio">
+                            $8.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="17">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 18 -->
+
+                <article class="producto" data-product-id="18">
+
+                    <img
+                        src="./img/rodillojade.jpg"
+                        alt="Rodillo de jade"
+                    >
+
+                    <div class="producto-info">
+
+                        <span class="categoria">
+                            ACCESORIOS
+                        </span>
+
+                        <h3>
+                            Rodillo de jade
+                        </h3>
+
+                        <p>
+                            Un accesorio para complementar
+                            tu rutina de cuidado facial.
+                        </p>
+
+                        <span class="precio">
+                            $13.000
+                        </span>
+
+                        <button type="button" class="btn-producto" data-add-to-cart="18">Agregar al carrito</button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+            <div class="api-products-block">
+                <div class="section-title api-subtitle">
+                    <p>PARA DESCUBRIR</p>
+                    <h3>También te puede interesar</h3>
+                </div>
+                <p class="api-note">Descubrí nuevas opciones para completar tu rutina de belleza.</p>
+                <p id="api-status" class="text-center" role="status" aria-live="polite">Cargando recomendaciones...</p>
+                <div class="productos" id="api-products-grid" aria-live="polite"></div>
+            </div>
+
+        </section>
+
+
+        <!-- CARRITO DE COMPRAS -->
+        <section class="section carrito-section" id="carrito">
+            <div class="section-title">
+                <p>RESUMEN DE TU COMPRA</p><h2>Mi carrito</h2>
+            </div>
+            <div id="cart-empty" class="text-center">
+                <p>Tu carrito está vacío por ahora.</p>
+                <a href="#productos" class="btn">Explorar productos</a>
+            </div>
+            <div id="cart-content" hidden>
+                <div class="table-responsive">
+                    <table class="table align-middle">
+                        <thead><tr><th>Producto</th><th>Precio</th><th>Cantidad</th><th>Subtotal</th><th>Acciones</th></tr></thead>
+                        <tbody id="cart-items"></tbody>
+                    </table>
+                </div>
+                <div class="cart-total">
+                    <p>Total: <strong id="cart-total">$0.00</strong></p>
+                    <button type="button" class="btn" id="checkout-button">Simular compra</button>
+                </div>
+                <p id="checkout-message" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+
+
+
+
+        <!-- CONTENIDO MULTIMEDIA -->
+        <section class="section multimedia-section" id="multimedia">
+            <div class="section-title">
+                <p>CONTENIDO MULTIMEDIA</p>
+                <h2>Rutina de skincare</h2>
+            </div>
+            <p class="multimedia-description">Un video para acompañar tus momentos de cuidado personal.</p>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/VnUz1QHJInk"
+                    title="Dra. Daniela Pascali analiza rutinas de skincare"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="video-credit">Video recomendado: <a href="https://www.youtube.com/watch?v=VnUz1QHJInk" target="_blank" rel="noopener noreferrer">Productos buenos y económicos 8 – Simon Scarano: ver en YouTube</a>.</p>
+        </section>
+
+
+        <!-- RESEÑAS -->
+
+        <section class="section section-resenas" id="resenas">
+
+            <div class="section-title">
+
+                <p>
+                    EXPERIENCIAS
+                </p>
+
+                <h2>
+                    Reseñas
+                </h2>
+
+            </div>
+
+
+            <div class="resenas">
+
+
+                <article class="resena">
+
+                    <div class="estrellas">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Me encantó el producto y la atención.
+                        Todo llegó perfecto."
+                    </p>
+
+                    <h3>
+                        Sofía
+                    </h3>
+
+                </article>
+
+
+                <article class="resena">
+
+                    <div class="estrellas">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Encontré productos para completar
+                        toda mi rutina de skincare."
+                    </p>
+
+                    <h3>
+                        Martina
+                    </h3>
+
+                </article>
+
+
+                <article class="resena">
+
+                    <div class="estrellas">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "La experiencia fue muy buena y
+                        los productos me encantaron."
+                    </p>
+
+                    <h3>
+                        Valentina
+                    </h3>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section class="section contacto" id="contacto">
+
+            <div class="contacto-info">
+
+                <p class="section-subtitle">
+                    ESCRIBINOS
+                </p>
+
+                <h2>
+                    Contacto
+                </h2>
+
+                <p>
+                    Si querés consultar por algún producto,
+                    disponibilidad o realizar una pregunta,
+                    podés escribirnos a través del formulario.
+                </p>
+
+
+                <p class="contacto-ayuda">Respondemos tus consultas a través del formulario.</p>
+
+            </div>
+
+
+            <form
+                id="contact-form"
+                class="formulario"
+                action="https://formspree.io/f/xeaeerkd"
+                method="POST"
+            >
+
+                <label for="nombre">
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Tu nombre"
+                    required
+                >
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="tuemail@email.com"
+                    required
+                >
+
+
+                <label for="motivo">
+                    Motivo de consulta
+                </label>
+
+                <select
+                    id="motivo"
+                    name="motivo"
+                    required
+                >
+
+                    <option value="">
+                        Seleccioná una opción
+                    </option>
+
+                    <option value="producto">
+                        Consulta sobre un producto
+                    </option>
+
+                    <option value="disponibilidad">
+                        Disponibilidad
+                    </option>
+
+                    <option value="otro">
+                        Otro
+                    </option>
+
+                </select>
+
+
+                <label for="mensaje">
+                    Mensaje
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="6"
+                    placeholder="Escribí tu mensaje"
+                    required
+                ></textarea>
+
+
+                <div class="form-buttons">
+
+                    <button
+                        type="submit"
+                        class="btn"
+                    >
+                        Enviar mensaje
+                    </button>
+
+                    <button
+                        type="reset"
+                        class="btn-reset"
+                    >
+                        Limpiar
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <h2>
+            LENA BEAUTY
+        </h2>
+
+        <p>
+            Skincare, belleza y cuidado personal.
+        </p>
+
+
+        <div class="footer-sociales">
+            <a href="#contacto" aria-label="Ir al formulario de contacto">Contactanos</a>
+        </div>
+
+
+        <p class="copyright">
+            © 2026 LENA BEAUTY. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- Visor de imágenes ampliadas -->
+    <div class="image-lightbox" id="image-lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de imagen" hidden>
+        <button class="lightbox-close" type="button" aria-label="Cerrar imagen ampliada">×</button>
+        <div class="lightbox-zoom-controls" aria-label="Controles de zoom">
+            <button class="lightbox-zoom-out" type="button" aria-label="Alejar imagen">−</button>
+            <button class="lightbox-zoom-in" type="button" aria-label="Acercar imagen">+</button>
+            <button class="lightbox-zoom-reset" type="button" aria-label="Restablecer zoom">↺</button>
+        </div>
+        <button class="lightbox-prev" type="button" aria-label="Imagen anterior">‹</button>
+        <figure>
+            <img id="lightbox-image" src="" alt="">
+            <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+        <button class="lightbox-next" type="button" aria-label="Imagen siguiente">›</button>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
